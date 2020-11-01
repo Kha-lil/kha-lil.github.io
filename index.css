@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: .05rem;
+}
+
+body{
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container{
+  margin: auto;
+  padding-top: 5rem;
+  width: 50%;
+}
+input{
+  width: 100%;
+  outline: none;
+  padding: .6rem;
+  border: none;
+}
+
+label{
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+button{
+  margin-top: .7rem;
+  padding: .7rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+p{
+  margin-top: .7rem;
+  font-size: 1.1;
+}
